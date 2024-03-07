@@ -1,5 +1,4 @@
 body {
-    background-image: url('/Pagina/imagenes/7\ AdobeStock_335413355.avif'); /* Cambia 'ruta/de/la/imagen.jpg' por la ruta de tu imagen de fondo */
     background-size: cover;
     background-position: center;
     display: flex;
@@ -36,7 +35,7 @@ body {
 .caja {
     width: 1000px; /* Ancho ajustado para que sea rectangular */
     height: 500px;
-    background-color: rgba(255, 255, 255, 0.7); /* Blanco con opacidad */
+    background-color: rgba(146, 199, 205, 0.7); /* Blanco con opacidad */
     border-radius: 20px; /* Radio de las esquinas */
     padding: 20px; /* Espacio interior */
 }
@@ -48,11 +47,34 @@ body {
     text-align: right;
 }
 
-.boton { background-color: #000000; /* Verde */
+.boton { 
+    background-color: #000000; /* Verde */
     border: none;
     color: white;
     padding: 15px 32px;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+}
+/* Estilos para el tema claro */
+.tema-claro {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Estilos para el tema oscuro */
+.tema-oscuro {
+    background-color: #000000;
+    color: #ffffff;
+}
+#cambiarTema {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #080808;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
 }
