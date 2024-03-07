@@ -1,0 +1,58 @@
+body {
+    background-image: url('/Pagina/imagenes/7\ AdobeStock_335413355.avif'); /* Cambia 'ruta/de/la/imagen.jpg' por la ruta de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+/* Media query para iPhone */
+@media only screen and (max-width: 375px) {
+    .caja {
+        width: 300px;
+        height: auto;
+        padding: 40px 20px; /* Aumentar el espacio interior */
+    }
+
+    .caja h1 {
+        font-size: 24px; /* Título más grande */
+    }
+
+    .cajabotones {
+        text-align: center; /* Centrar los botones */
+    }
+}
+
+/* Media query para iPad Pro */
+@media only screen and (min-width: 1024px) {
+    .caja {
+        width: 800px;
+        height: auto;
+    }
+}
+
+.caja {
+    width: 1000px; /* Ancho ajustado para que sea rectangular */
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.7); /* Blanco con opacidad */
+    border-radius: 20px; /* Radio de las esquinas */
+    padding: 20px; /* Espacio interior */
+}
+/* Estilos adicionales para los elementos dentro de la caja */
+.caja h1, .caja p, .caja h3, .caja button {
+    margin: 10px 0; /* Espaciado entre los elementos */
+}
+.cajabotones {
+    text-align: right;
+}
+
+.boton { background-color: #000000; /* Verde */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
