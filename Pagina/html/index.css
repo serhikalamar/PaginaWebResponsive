@@ -67,7 +67,7 @@ body {
     background-color: #000000;
     color: #ffffff;
 }
-#cambiarTema {
+#toggle-theme-btn {
     position: fixed;
     top: 20px;
     right: 20px;
