@@ -1,15 +1,89 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Ojuju:wght@200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
+
+:root {
+    --san-marino-50: #f3f7fb;
+    --san-marino-100: #e3edf6;
+    --san-marino-200: #cee1ef;
+    --san-marino-300: #accde4;
+    --submarino: #84b3d6;
+    --san-marino-500: #6799ca;
+    --joangordo: #5482bc;
+    --kalamar: #496fab;
+    --san-marino-800: #405c8d;
+    --pulpo: #384d70;
+    --san-marino-950: #253146;
+}
+
+body *{
+    font-family: "Inter";
+}
 body {
-    font-family: "Ubuntu";
     background-size: cover;
     background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
     margin: 0;
+}
+
+header{
+    display: flex;
+    padding: 8px 16px;
+    flex-direction: row;
+    height: 3.5rem;
+    border-bottom: 1px solid var(--san-marino-300);
+}
+
+.botones {
+    background-color: var(--joangordo);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    height: fit-content;
+    align-self: center;  
+}
+.tema{
+    margin-left: auto;
+}
+#toggle-theme-btn {
+    background-color: transparent;
+    color: var(--joangordo);
+    padding: 0 !important;
+    
+}
+#toggle-theme-btn i{
+    font-size: 26px;
+    margin-right: 8px;
+}
+.B-inicio {
+    margin: 0px 8px;
+    background-color: white;
+    border: 1px solid var(--submarino);
+    color: var(--submarino);
+
+}
+.B-registro {
+    background-color: var(--submarino);
+}
+
+
+
+
+.titulo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    
+
+}
+.titulo h1{
+    color: var(--joangordo);
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin: auto;
+    font-weight: 500;
 }
 /* Media query para iPhone */
 @media only screen and (max-width: 375px) {
@@ -36,117 +110,8 @@ body {
     }
 }
 
-.caja {
-    width: 1000px; /* Ancho ajustado para que sea rectangular */
-    height: 500px;
-    background-color: rgba(146, 199, 205, 0.7); /* Blanco con opacidad */
-    border-radius: 20px; /* Radio de las esquinas */
-    padding: 20px; /* Espacio interior */
-}
-/* Estilos adicionales para los elementos dentro de la caja */
-.caja h1, .caja p, .caja h3, .caja button {
-    margin: 10px 0; /* Espaciado entre los elementos */
-}
-.cajabotones {
-    text-align: center;
-}
-
-.boton { 
-    background-color: #000000; /* Verde */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-}
-/* Estilos para el tema claro */
-.tema-claro {
-    background-color: #ffffff;
-    color: #000000;
-}
-
 /* Estilos para el tema oscuro */
 .tema-oscuro {
     background-color: #282828;
     color: #ffffff;
-}
-.tema-oscuro .boton {
-    background-color: #ffffff; /* Cambiar el fondo a blanco */
-    color: #434242; /* Cambiar el color del texto a negro */
-}
-#toggle-theme-btn {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    background-color: #080808;
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-.caja h1{
-    font-size: 50px;
-    
-}
-.caja h3{
-    font-size: 30px;
-}
-.caja p{
-    font-size: 18px;
-}
-.ubuntu-light {
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-}
-  
-.ubuntu-regular {
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-  
-.ubuntu-medium {
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-}
-.ubuntu-bold {
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-}
-  
-.ubuntu-light-italic {
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 300;
-    font-style: italic;
-}
-  
-.ubuntu-regular-italic {
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-}
-  
-.ubuntu-medium-italic {
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 500;
-    font-style: italic;
-}
-  
-.ubuntu-bold-italic {
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-}
-
-
-.fotos {
-    display: flex;
-    justify-content: center;
-    margin: auto;
 }
