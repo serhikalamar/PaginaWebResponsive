@@ -64,8 +64,12 @@ body {
 
 /* Estilos para el tema oscuro */
 .tema-oscuro {
-    background-color: #000000;
+    background-color: #434242;
     color: #ffffff;
+}
+.tema-oscuro .boton {
+    background-color: #ffffff; /* Cambiar el fondo a blanco */
+    color: #434242; /* Cambiar el color del texto a negro */
 }
 #toggle-theme-btn {
     position: fixed;
