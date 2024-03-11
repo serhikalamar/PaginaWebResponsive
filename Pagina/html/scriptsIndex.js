@@ -18,3 +18,8 @@ toggleThemeButton.addEventListener('click', function() {
     }
 
 });
+
+
+function carruselFotos(){
+    
+}
