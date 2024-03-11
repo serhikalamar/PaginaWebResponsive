@@ -25,7 +25,7 @@ body {
     height: 100vh;
     margin: 0;
 }
-
+/*HEADER */
 header{
     display: flex;
     padding: 8px 16px;
@@ -33,6 +33,7 @@ header{
     height: 3.5rem;
     border-bottom: 1px solid var(--san-marino-300);
 }
+
 
 .botones {
     background-color: var(--joangordo);
@@ -67,16 +68,10 @@ header{
 .B-registro {
     background-color: var(--submarino);
 }
-
-
-
-
 .titulo {
     display: flex;
     align-items: center;
     text-decoration: none;
-    
-
 }
 .titulo h1{
     color: var(--joangordo);
@@ -85,29 +80,40 @@ header{
     margin: auto;
     font-weight: 500;
 }
+/*FIN DE HEADER*/
+/* FOOTER */
+footer{
+    margin: auto;
+}
+.lineafooter {
+    display: block;
+    border-bottom: 1px solid var(--san-marino-300);
+}
+.footerM {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+main {
+    
+}
+main h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 66px;
+}
+
+
 /* Media query para iPhone */
 @media only screen and (max-width: 375px) {
-    .caja {
-        width: 300px;
-        height: auto;
-        padding: 40px 20px; /* Aumentar el espacio interior */
-    }
-
-    .caja h1 {
-        font-size: 24px; /* Título más grande */
-    }
-
-    .cajabotones {
-        text-align: center; /* Centrar los botones */
-    }
+    
 }
 
 /* Media query para iPad Pro */
 @media only screen and (min-width: 1024px) {
-    .caja {
-        width: 800px;
-        height: auto;
-    }
+    
 }
 
 /* Estilos para el tema oscuro */
