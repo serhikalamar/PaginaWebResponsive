@@ -90,9 +90,22 @@ footer{
 }
 .footerM {
     display: flex;
-    justify-content:space-around;
+    justify-content: center;
     align-items: center;
-    
+}
+.footerM b{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.footerM p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.footerM a{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 /*Main*/
 main {
