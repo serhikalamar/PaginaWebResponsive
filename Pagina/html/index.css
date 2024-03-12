@@ -124,8 +124,11 @@ main img{
     size: 25%;
     margin: auto;
 }
+/*Slider css */
 .slider{
     overflow:hidden;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 .slider--inner{
     display: flex;
@@ -143,6 +146,7 @@ main img{
 img {
     width: 100%;
 }
+/*fin slider css*/
 #textoEj {
     padding: 20px 40px;
     margin-left: 10rem;
