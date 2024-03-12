@@ -124,17 +124,18 @@ main img{
     size: 25%;
     margin: auto;
 }
+
 /*Slider css */
 .slider{
     overflow:hidden;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 .slider--inner{
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
-    height: 400px;
+    height: 500px;
     transition: all 0.5s ease-in;
     align-items: center;
 }
@@ -158,7 +159,28 @@ img {
     justify-content: center;
     font-size: 1.5rem;
 }
-
+/*Formulario */
+main form{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    
+}
+form label{
+    padding: 10px 10px 10px 10px;
+}
+form input{
+    padding: 10px 10px 10px 10px;
+}
+form button{    
+    padding: 15px 30px 15px 30px;
+    margin-top: 8px;
+    background-color:var(--submarino);
+    border-radius: 2px;
+    border: 1px white;
+    color: white;
+}
 
 /* Media query para iPhone */
 @media only screen and (max-width: 375px) {
