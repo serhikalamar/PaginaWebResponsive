@@ -124,6 +124,25 @@ main img{
     size: 25%;
     margin: auto;
 }
+.slider{
+    overflow:hidden;
+}
+.slider--inner{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    height: 400px;
+    transition: all 0.5s ease-in;
+    align-items: center;
+}
+.slider--inner img{
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+
+}
+img {
+    width: 100%;
+}
 #textoEj {
     padding: 20px 40px;
     margin-left: 10rem;
