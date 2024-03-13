@@ -169,6 +169,7 @@ main form{
 }
 form label{
     padding: 10px 10px 10px 10px;
+    font-size: 1.2rem;
 }
 form input{
     padding: 10px 10px 10px 10px;
@@ -181,7 +182,7 @@ form button{
     border: 1px white;
     color: white;
 }
-form button:hover{    
+form button:hover{
     padding: 15px 30px 15px 30px;
     margin-top: 8px;
     background-color:var(--kalamar);
