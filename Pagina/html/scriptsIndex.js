@@ -18,8 +18,27 @@ toggleThemeButton.addEventListener('click', function() {
     }
 
 });
+function validacion(){
 
 
-function carruselFotos(){
+}
+function Correo(){
+    var email = document.getElementById("email").value;
+    var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    if (!emailRegex.test(email)) {
+      alert("Por favor, introduce una dirección de correo electrónico válida.");
+    }
+}
+function nombreApellido(){
+
+}
+function numerodeTelefono(){
+
+}
+function nombreUsuario(){
+
+}
+function contrasenya(){
     
 }
