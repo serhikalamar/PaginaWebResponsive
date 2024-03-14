@@ -32,9 +32,11 @@
     --pulpo: #384d70;
     --san-marino-950: #253146;
 }
-
 body *{
     font-family: "Inter";
+}
+body{
+    margin: 0px;
 }
 
 /*HEADER */
@@ -86,7 +88,7 @@ main{
     margin-top: 50px;
 }
 main h1{
-    font-size: 3rem;
+    font-size: 4.5rem;
     padding-bottom:25px;
     display: flex;
     align-items: center;
@@ -102,7 +104,9 @@ form label{
 }
 form input{
     padding: 10px 15px 10px 15px;
+    margin-top:6px ;
     font-size: 1rem;
+    border-radius: 5px;
 }
 #labelEmail{
     padding-bottom: 10px;
