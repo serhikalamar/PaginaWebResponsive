@@ -5,6 +5,18 @@
     background-color: #282828;
     color: #ffffff;
 }
+.tema-oscuro input{
+    background-color: #282828;
+    color: white;
+    border: 0.5px solid #484848;
+}
+.tema-oscuro label{
+    color: var(--san-marino-300);
+}
+.tema-oscuro #button{
+    color: var(--pulpo);
+}
+
 
 
 :root {
@@ -24,12 +36,7 @@
 body *{
     font-family: "Inter";
 }
-body {
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    margin: 0;
-}
+
 /*HEADER */
 header{
     display: flex;
@@ -73,4 +80,53 @@ header{
     font-size: 1.5rem;
     margin: auto;
     font-weight: 500;
+}
+/*MAIN*/
+main{
+    margin-top: 50px;
+}
+main h1{
+    font-size: 3rem;
+    padding-bottom:25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--kalamar);
+}
+form label{
+    font-weight: 500;
+    color:var(--pulpo);
+    font-size:1.2rem ;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+form input{
+    padding: 10px 15px 10px 15px;
+    font-size: 1rem;
+}
+#labelEmail{
+    padding-bottom: 10px;
+}
+main form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#button{    
+    padding: 15px 30px 15px 30px;
+    margin-top: 15px;
+    background-color:var(--submarino);
+    border-radius: 2px;
+    border: 1px white;
+    color: white;
+}
+#button:hover{
+    padding: 15px 30px 15px 30px;
+    margin-top: 8px;
+    background-color:var(--kalamar);
+    border-radius: 2px;
+    border: 1px white;
+    color: white;
+    cursor:pointer;
 }

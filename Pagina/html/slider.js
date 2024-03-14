@@ -6,7 +6,7 @@ setInterval(function(){
     let porcentaje = index * - 100;
     sliderInner.style.transform = "translateX(" + porcentaje +"%)";
     index++;
-    if(index > (imagenes.length - 2)){
+    if(index > (imagenes.length - 1)){
         index = 0;
     }
 },3000);

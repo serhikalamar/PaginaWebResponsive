@@ -62,11 +62,22 @@ header{
     background-color: white;
     border: 1px solid var(--submarino);
     color: var(--submarino);
+}
+.B-inicio:hover {
+    margin: 0px 8px;
+    background-color:var(--pulpo);
+    border: 1px solid var(--submarino);
+    color: white;
 
 }
 .B-registro {
     background-color: var(--submarino);
 }
+.B-registro:hover {
+    background-color: var(--san-marino-200);
+    color: var(--pulpo);
+}
+
 .titulo {
     display: flex;
     align-items: center;
@@ -81,8 +92,6 @@ header{
 }
 /*FIN DE HEADER*/
 /* FOOTER */
-footer{
-}
 .lineafooter {
     display: block;
     border-bottom: 1px solid var(--san-marino-300);
@@ -109,9 +118,6 @@ footer{
     color: black;
 }
 /*Main*/
-main {
-    
-}
 main h2{
     color: var(--joangordo);
     display: flex;
@@ -129,8 +135,8 @@ main img{
 /*Slider css */
 .slider{
     overflow:hidden;
-    margin-left: 40px;
-    margin-right: 40px;
+    padding: 50px 100px 50px 100px;
+    margin: 20px 100px 20px 100px;
 }
 .slider--inner{
     display: flex;
@@ -147,12 +153,15 @@ main img{
 }
 img {
     width: 100%;
+    padding-right: 80px;
+    padding-left: 20px;
 }
 /*fin slider css*/
 #textoEj {
-    margin-left: 10rem;
-    margin-right: 10rem;
+    padding: 50px 100px 50px 100px;
+    margin: 20px 100px 20px 100px;
     font-size: 1.3rem;
+    text-align: justify;
 }
 #Regstrate1{
     display: flex;
@@ -165,13 +174,20 @@ main form{
     display: flex;
     justify-content:center;
     flex-direction:column;
-    padding: 0px 200px 0px 200px;
+    padding: 15px 100px 50px 100px;
+    margin: 20px 100px 20px 100px;
+    background-color: var(--pulpo);
+    border-radius: 10px;
     
 }
+form h2{
+    padding-bottom: 35px;
+}
 form label{
+    color: white;
     padding: 15px 10px 15px 10px;
     font-size: 1.2rem;
-    display: flex;
+    display:flex;
     align-items: center;
     justify-content: center;
 }
@@ -215,4 +231,30 @@ form button:hover{
     background-color: #282828;
     color: white;
     border: 0.5px solid #484848;
+}
+.tema-oscuro textarea{
+    background-color: #282828;
+    color: white;
+    border: 0.5px solid #484848;
+}
+.tema-oscuro a{
+    color: white;
+}
+.tema-oscuro .B-inicio{
+    margin: 0px 8px;
+    background-color: var(--pulpo);
+    color: var(--submarino);
+}
+.tema-oscuro .B-registro{
+    background-color: var(--san-marino-200);
+    color: var(--pulpo);
+}
+.tema-oscuro .B-inicio:hover{
+    margin: 0px 8px;
+    background-color: white;
+    color: var(--submarino);
+}
+.tema-oscuro .B-registro:hover{
+    background-color: var(--submarino);
+    color: var(--san-marino-200);
 }
