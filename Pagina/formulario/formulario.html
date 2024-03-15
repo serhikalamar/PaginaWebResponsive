@@ -3,34 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/Pagina/css/formulario.css">
+    <title>Registrate</title>
+    <link rel="stylesheet" href="/Pagina/formulario/formulario.css">
 </head>
 <body>
     <header>
-
+        <a href="/Pagina/html/index.html" class="titulo"><h1>PixShare</h1></a>
+        <button id="toggle-theme-btn" class="botones tema"><i id="icono" class="fa-solid fa-moon"></i></button>
     </header>
     <main>
-        <h2>Registrate</h2>
+        <h1>Registrate</h1>
         <form action="" class="formulario">
-            <label for="name">Nombre</label>
-            <input type="text" name="" id="Nombre">
-            <label for="Apellido">Apellido</label>
-            <input type="text" name="" id="Apellido">
-            <label for="phoneNumber">Numero de Telefono</label>
-            <input type="number" name="" id="phoneNumber">
-            <label for="">Correo electrónico</label>
-            <input type="email" id="email">
-            <label for="UserName">Nombre de Usuario</label>
-            <input type="text" name="" id="usuario">
-            <label for="password">Contraseña</label>
-            <input type="password" id="password">
-            <button onclick="validacion()">Registrate</button>
+            <input type="text" name="" class="nombre labelEmail" placeholder="Nombre">
+            <input type="text" name="" id="Apellido" placeholder="Apellido">
+            <input type="number" name="" id="phoneNumber" placeholder="Numero de Telefono">
+            <input type="email" id="email" placeholder="Correo electrónico">
+            <input type="text" name="" id="usuario" placeholder="Nombre de usuario">
+            <input type="password" id="password" placeholder="Contraseña">
+            <button id="button" onclick="validacion()">Registrate</button>
         </form>
     </main>
     <footer>
 
     </footer>
-    <script src="/Pagina/Scripts/scriptsFormulario.js"></script>
+    <script src="https://kit.fontawesome.com/e16e039149.js" crossorigin="anonymous"></script>
+    <script src="/Pagina/formulario/scriptsFormulario.js"></script>
+    <script src="/Pagina/html/scriptsIndex.js"></script>
 </body>
 </html>
