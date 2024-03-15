@@ -94,6 +94,7 @@ main h1{
     align-items: center;
     justify-content: center;
     color: var(--kalamar);
+    margin-top: 64px;
 }
 form label{
     font-weight: 500;
@@ -107,6 +108,7 @@ form input{
     margin-top:6px ;
     font-size: 1rem;
     border-radius: 5px;
+    border: 1px solid gray !important;
 }
 #labelEmail{
     padding-bottom: 10px;
