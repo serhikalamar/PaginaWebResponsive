@@ -18,12 +18,22 @@ toggleThemeButton.addEventListener('click', function() {
     }
 
 });
+//hacer una funcion grande llamada validacion e ir una por una por funcion y despues si todas son true el registro esta completado
+// si no juntar en una array las expresiones regulares, y los valores en un array y que lo recorra
 function validacion(){
-
+    var nom = nombreApellido(document.getElementById('nom').value);
+    var apellido = nombreApellido(document.getElementById('Apellido').value);
+    var phoneNumber = numerodeTelefono(document.getElementById('phoneNumber').value);
+    var email = Correo(document.getElementById("email").value);
+    var usuario = nombreUsuario(document.getElementById('usuario').value);
+    var password =contrasenya(document.getElementById('password').value);
+    if(nom && apellido && phoneNumber && email && usuario && password){
+        alert('registro completado');
+    }
 
 }
 function Correo(){
-    var email = document.getElementById("email").value;
+    
     var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
     if (!emailRegex.test(email)) {
