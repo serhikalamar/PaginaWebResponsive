@@ -20,9 +20,27 @@ toggleThemeButton.addEventListener('click', function() {
 });
 //hacer una funcion grande llamada validacion e ir una por una por funcion y despues si todas son true el registro esta completado
 // si no juntar en una array las expresiones regulares, y los valores en un array y que lo recorra
+function validacionFormulario(){
+    var nom = nombre(document.getElementById('nom').value);
+    var email = Correo(document.getElementById("email").value);
+    
+    if(email == true && nom == true){
+        alert('Se ha enviado correctamente');
+    }else{
+        if(!email && !nom){
+            alert('valores de nombre y email no son correctos');
+        }
+        if(email && !nom){
+            alert('valor de nombre no es correcto');
+        }
+        if(!email && nom){
+            alert('valores de email no son corretos');
+        }
+    }
+}
 function validacion(){
-    var nom = nombreApellido(document.getElementById('nom').value);
-    var apellido = nombreApellido(document.getElementById('Apellido').value);
+    var nom = nombre(document.getElementById('nom').value);
+    var apellido = Apellido(document.getElementById('Apellido').value);
     var phoneNumber = numerodeTelefono(document.getElementById('phoneNumber').value);
     var email = Correo(document.getElementById("email").value);
     var usuario = nombreUsuario(document.getElementById('usuario').value);
@@ -33,22 +51,26 @@ function validacion(){
 
 }
 function Correo(){
-    
-    var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
-    if (!emailRegex.test(email)) {
-      alert("Por favor, introduce una dirección de correo electrónico válida.");
-    }
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email); 
 }
-function nombreApellido(){
-
+function nombre(){
+    const regex = /^[a-zA-Z]+$/u ;
+    return regex.test(nom);
+}
+function Apellido(){
+    const regex = /^[a-zA-Z]+$/u ;
+    return regex.test(apellido);
 }
 function numerodeTelefono(){
-
+    const regexTelefono = /^\+(?:[0-9] ?){6,14}[0-9]$/;
+    return regexTelefono.test(phoneNumber);
 }
 function nombreUsuario(){
-
+    const regexUsuario = /^[a-zA-Z0-9_]{3,16}$/;
+    return regexUsuario.test(usuario);
 }
 function contrasenya(){
-    
+    const regexContrasena = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[\W\_])[a-zA-Z0-9\W\_]{8,}$/;
+    return regexContrasena.test(password);
 }

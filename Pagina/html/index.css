@@ -111,6 +111,14 @@
     
 }
 
+@media only screen and (max-width: 375px) and (max-height: 812px) {
+    
+}
+ 
+@media only screen and (min-width: 1024px) {
+    
+}
+
 :root {
     --san-marino-50: #f3f7fb;
     --san-marino-100: #e3edf6;
@@ -392,8 +400,11 @@ form button{
     cursor:pointer;
 } */
 
+<<<<<<< Updated upstream
 
 
+=======
+>>>>>>> Stashed changes
 /* Estilos para el tema oscuro */
 .tema-oscuro {
     background-color: #282828;
