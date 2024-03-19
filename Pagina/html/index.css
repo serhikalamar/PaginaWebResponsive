@@ -76,7 +76,6 @@
     .B-contacto{
         background-color: var(--joangordo);
         font-size: 1rem;
-        width: 15%;
         border-radius: 2.5px;
         align-self: center;
         margin-top:30px;
@@ -97,11 +96,20 @@
     /*FIN DE HEADER*/
     /*main*/
     #textoEj {
-        padding: 25px 50px 25px 50px;
-        margin: 10px 50px 10px 50px;
+        padding: 0px 0px 0px 0px;
+        margin: 10px 20px 10px 20px;
         font-size: 1rem;
         text-align: center;
         line-height: 1.6;
+        
+    }
+    .tituloContacto p{
+        padding-bottom: 55px;
+        color: white;
+        text-align: center;
+        font-size:1.2rem;
+        padding: 10px 10px 10px 10px;
+        text-align: -webkit-center;
     }
 
 }
@@ -111,13 +119,7 @@
     
 }
 
-@media only screen and (max-width: 375px) and (max-height: 812px) {
-    
-}
- 
-@media only screen and (min-width: 1024px) {
-    
-}
+
 
 :root {
     --san-marino-50: #f3f7fb;
@@ -400,11 +402,8 @@ form button{
     cursor:pointer;
 } */
 
-<<<<<<< Updated upstream
 
 
-=======
->>>>>>> Stashed changes
 /* Estilos para el tema oscuro */
 .tema-oscuro {
     background-color: #282828;
