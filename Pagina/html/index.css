@@ -95,6 +95,14 @@
         font-weight: 500;
     }
     /*FIN DE HEADER*/
+    /*main*/
+    #textoEj {
+        padding: 25px 50px 25px 50px;
+        margin: 10px 50px 10px 50px;
+        font-size: 1rem;
+        text-align: center;
+        line-height: 1.6;
+    }
 
 }
 
