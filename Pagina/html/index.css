@@ -1,6 +1,107 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Ojuju:wght@200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
+/* Media query para iPhone */
+@media only screen and (max-width: 375px) {
+    body *{
+        font-family: "Inter";
+        
+    }
+    body {
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        margin: 0;
+    
+    }
+    /*HEADER */
+    header{
+        display: flex;
+        padding: 8px 16px;
+        flex-direction: row;
+        height: 1.5rem;
+        border-bottom: 2px solid var(--san-marino-300);
+    }
+
+    .botones {
+        background-color: var(--joangordo);
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        height: fit-content;
+        align-self: center;  
+    }
+    .tema{
+        margin-left: auto;
+    }
+    #toggle-theme-btn {
+        background-color: transparent;
+        color: var(--joangordo);
+        padding: 0 !important;
+        
+    }
+    #icono{
+        font-size: 26px;
+        margin-right: 5px;
+        padding-left: 8px;
+    }
+    .B-inicio {
+        margin: 0px 8px;
+        background-color: white;
+        border: 1px solid var(--submarino);
+        color: var(--submarino);
+    }
+    .B-inicio:hover {
+        margin: 0px 8px;
+        background-color:var(--pulpo);
+        border: 1px solid var(--submarino);
+        color: white;
+
+    }
+    .B-registro {
+        background-color: var(--submarino);
+    }
+    .B-registro:hover {
+        background-color: var(--san-marino-200);
+        color: var(--pulpo);
+    }
+    .B-info{
+        background-color: var(--kalamar);
+        padding: 15px 35px !important; 
+        font-size: 1rem;
+        border-radius: 25px;
+    }
+    .B-contacto{
+        background-color: var(--joangordo);
+        font-size: 1rem;
+        width: 15%;
+        border-radius: 2.5px;
+        align-self: center;
+        margin-top:30px;
+    }
+
+    .titulo {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+    }
+    .titulo h1{
+        color: var(--joangordo);
+        cursor: pointer;
+        font-size: 1rem;
+        margin: auto;
+        font-weight: 500;
+    }
+    /*FIN DE HEADER*/
+
+}
+
+/* Media query para iPad Pro */
+@media only screen and (min-width: 1024px) {
+    
+}
 
 :root {
     --san-marino-50: #f3f7fb;
@@ -261,6 +362,10 @@ form input:focus, form textarea:focus{
 form input::placeholder, form textarea::placeholder{
     color: white;
 }
+.hero button a{
+    color: white;
+    text-decoration: none;
+}
 form button{    
     padding: 15px 30px 15px 30px;
     margin-top: 8px;
@@ -279,15 +384,7 @@ form button{
     cursor:pointer;
 } */
 
-/* Media query para iPhone */
-@media only screen and (max-width: 375px) {
-    
-}
 
-/* Media query para iPad Pro */
-@media only screen and (min-width: 1024px) {
-    
-}
 
 /* Estilos para el tema oscuro */
 .tema-oscuro {
