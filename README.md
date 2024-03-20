@@ -30,6 +30,9 @@ El segundo es el de iniciar sesion que solo va a validar si es un correo electro
 Y el tercero es el mas extenso que es una pagina de registro de cuenta, ahi verifica el nombre, apellido, correo, numero de telefono, nombre de usuario y contraseña.Y si todo esta bien avisara en un alert y sino avisara en otro en los campos incorrectos.
 
 Tambien he añadido un icono de cambio de tema que segun que tema esta establecido el icono cambia, para activar el tema oscuo aparece una luna y para el tema claro un sol.
+Por lo demas es una pagina basica,con un diseño minimalista y con un intento de interactiva.
+
+Gracias por su lectura.
 
 
 
