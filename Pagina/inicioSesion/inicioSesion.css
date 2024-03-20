@@ -136,3 +136,9 @@ main form{
     color: white;
     cursor:pointer;
 }
+@media screen and  (max-width: 415px) {
+    main h1{
+        text-align: center;
+    }
+
+}
