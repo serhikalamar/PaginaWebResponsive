@@ -47,6 +47,24 @@ function validacion(){
         alert('registrado correctamente');
     }
 }
+function validarUsuario(){
+    var password =contrasenya(document.getElementById('password').value);
+    var email = Correo(document.getElementById("email").value);
+    if(email && password){
+        alert('Se ha enviado correctamente');
+    }else{
+        if(!email && !password){
+            alert('valores de email y contraseña no son correctos');
+        }
+        if(email && !password){
+            alert('valor de contraseña no es correcto');
+        }
+        if(!email && password){
+            alert('valores de email no son corretos');
+        }
+    }
+
+}
 //funcion validar correo
 function Correo(){
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
