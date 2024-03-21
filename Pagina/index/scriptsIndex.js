@@ -1,14 +1,12 @@
 // cambio de tema de claro a oscuro y viceversa y cambiar el texto del boton
 var toggleThemeButton = document.getElementById('toggle-theme-btn');
-
-
-
+//cuando se hace click llama a la funcion
 toggleThemeButton.addEventListener('click', function() {
-
+    //al body le añade la clase tema oscuro 
     document.body.classList.toggle('tema-oscuro');
-   
+   //quita la clase tema oscuro
     var isDarkMode = document.body.classList.contains('tema-oscuro');
-    
+    //aqui es un if que si esta en tema oscuro cambiar la clase del icono asi pasarlo a sol y viceversa
     if (isDarkMode) {
         document.getElementById('icono').classList.replace("fa-solid","fa-regular");
         document.getElementById('icono').classList.replace("fa-moon","fa-sun");
@@ -18,8 +16,7 @@ toggleThemeButton.addEventListener('click', function() {
     }
 
 });
-//hacer una funcion grande llamada validacion e ir una por una por funcion y despues si todas son true el registro esta completado
-// si no juntar en una array las expresiones regulares, y los valores en un array y que lo recorra
+//validacion de formulario.
 function validacionFormulario(){
     var nom = nombre(document.getElementById('nom').value);
     var email = Correo(document.getElementById("email").value);
@@ -38,6 +35,7 @@ function validacionFormulario(){
         }
     }
 }
+//hacer una funcion grande llamada validacion e ir una por una por funcion y despues si todas son true el registro esta completado
 function validacion(){
     var nom = nombre(document.getElementById('nom').value);
     var apellido = Apellido(document.getElementById('Apellido').value);
@@ -46,31 +44,60 @@ function validacion(){
     var usuario = nombreUsuario(document.getElementById('usuario').value);
     var password =contrasenya(document.getElementById('password').value);
     if(nom && apellido && phoneNumber && email && usuario && password){
-        alert('registro completado');
+        alert('registrado correctamente');
     }
-
 }
+//funcion validar correo
 function Correo(){
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    return emailRegex.test(email); 
+    emailRegex.test(email); 
+    if(!email){
+        return alert('Correo no escrito correctamente');
+    }
+    return emailRegex
 }
+//funcion validar nombre
 function nombre(){
     const regex = /^[a-zA-Z]+$/u ;
-    return regex.test(nom);
+    regex.test(nom);
+    if(!email){
+        return alert('Nombre no escrito correctamente');
+    }
+    return email;
 }
+//funcion validar apellido
 function Apellido(){
     const regex = /^[a-zA-Z]+$/u ;
-    return regex.test(apellido);
+    regex.test(apellido);
+    if(!apellido){
+        return alert('Apellido no escrito correctamente');
+    }
+    return apellido;
 }
+//funcion validar numero de telefono 
 function numerodeTelefono(){
     const regexTelefono = /^\+(?:[0-9] ?){6,14}[0-9]$/;
-    return regexTelefono.test(phoneNumber);
+    regexTelefono.test(phoneNumber);
+    if(!phoneNumber){
+        return alert('Numero de telefono no escrito correctamente');
+    }
+    return phoneNumber;
 }
+//funcion validar nombre de usario 
 function nombreUsuario(){
     const regexUsuario = /^[a-zA-Z0-9_]{3,16}$/;
-    return regexUsuario.test(usuario);
+    regexUsuario.test(usuario);
+    if(!usuario){
+        return alert('usuario no escrito correctamente');
+    }
+    return usuario;
 }
+//funcion validar contraseña
 function contrasenya(){
     const regexContrasena = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[\W\_])[a-zA-Z0-9\W\_]{8,}$/;
-    return regexContrasena.test(password);
+    regexContrasena.test(password);
+    if(!password){
+        return alert('Contraseña e no escrito correctamente');
+    }
+    return password;
 }

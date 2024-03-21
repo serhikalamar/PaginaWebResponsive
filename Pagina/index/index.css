@@ -123,13 +123,7 @@
 
 }
 
-/* Media query para iPad Pro */
-/*
-@media only screen and (min-width: 1024px) {
-    
-}
-*/
-
+/* variables para los colores*/
 
 :root {
     --san-marino-50: #f3f7fb;
