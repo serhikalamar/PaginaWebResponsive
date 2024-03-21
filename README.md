@@ -11,6 +11,8 @@ Las horas realizadas en este trabajo son: 3 horas diarias durante 2 semanas, los
 La pagina web creada se llama PixShare y es una red social de imagenes generado por chatGPT
 le pedi un nombre de aplicacion  y una pequeña descripcion, a partir de ahi ,he creado la pagina.
 A parte de eso no he usado nada mas chatGPT.
+En mi pagina al ser simple y minimalista, no he visto necesario el uso de carga dinamica de contenido.Ya que no dispone de suficiente contenido para usar esta funcion.
+Las notificaciones emergente avisa
 
 ### *Colores*
 
