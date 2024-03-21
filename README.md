@@ -4,7 +4,7 @@
 
 ## Horas
 
-Las horas realizadas en este trabajo son: 3 horas diarias durante 2 semanas, los findes ha sido un poco menos llegando a 1 hora y media pero he de decir que una estuve mas o menos 4 horas llegando mas o menos a las 40 horas realizadas por este trabajo.
+Las horas realizadas en este trabajo son: 3 horas diarias durante 2 semanas, los findes ha sido un poco menos llegando a 1 hora y media pero he de decir que una estuve mas o menos 4 horas llegando mas o menos a las 40 horas realizadas por este trabajo.Tambien me ha revisado un poco la pagina mi amigo Joan titulado en DAW para ver mis errores y no tener malas costumbres, por eso aparece como colaborador, Gracias Joan por la ayuda <3.
 
 ## Pagina
 
