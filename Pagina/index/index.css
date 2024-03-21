@@ -419,30 +419,37 @@ form button{
     background-color: #282828;
     color: white;
     border: 0.5px solid #484848;
+    transition: all 1s ease;
 }
 .tema-oscuro textarea{
     background-color: #282828;
     color: white;
     border: 0.5px solid #484848;
+    transition: all 1s ease;
 }
 .tema-oscuro a{
     color: white;
+    transition: all 1s ease;
 }
 .tema-oscuro .B-inicio{
     margin: 0px 8px;
     background-color: var(--pulpo);
     color: var(--submarino);
+    transition: all 1s ease;
 }
 .tema-oscuro .B-registro{
     background-color: var(--san-marino-200);
     color: var(--pulpo);
+    transition: all 1s ease;
 }
 .tema-oscuro .B-inicio:hover{
     margin: 0px 8px;
     background-color: white;
     color: var(--submarino);
+    transition: all 1s ease;
 }
 .tema-oscuro .B-registro:hover{
     background-color: var(--submarino);
     color: var(--san-marino-200);
+    transition: all 1s ease;
 }
