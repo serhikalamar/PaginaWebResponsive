@@ -4,19 +4,23 @@
 .tema-oscuro {
     background-color: #282828;
     color: #ffffff;
+    transition: all 1s ease;
 }
 .tema-oscuro input{
     background-color: #282828;
     color: white;
     border: 0.5px solid #484848;
+    transition: all 1s ease;
 }
 .tema-oscuro label{
     color: var(--san-marino-300);
+    transition: all 1s ease;
 }
 .tema-oscuro #button{
     color: var(--pulpo);
     padding: 15px 30px 15px 30px;
     margin-top: 15px;
+    transition: all 1s ease;
 }
 
 

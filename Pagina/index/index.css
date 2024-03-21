@@ -413,6 +413,7 @@ form button{
 .tema-oscuro {
     background-color: #282828;
     color: #ffffff;
+    transition: all 1s ease;
 }
 .tema-oscuro input{
     background-color: #282828;
