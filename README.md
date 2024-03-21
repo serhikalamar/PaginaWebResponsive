@@ -2,12 +2,6 @@
 
 ### A partir de la pagina web responsive que realizamos como anterior trabajo, nuestar siguiente mision es agregar interactividad para el usuario. Yo al no tener una pagina en condiciones he decidido empezar de 0 el trabajo y usar todo lo aprendido para crear algo mas serio,añadimos la interactividad a traves de JavaScript y mejorando en conocimientos de CSS.
 
-## Agradecimientos
-
-Este trabajo lo he realizado solo, pero quiero dar las gracias a Joan, ya que gracias a el he aprendido mucho sobre el diseño de pagina y me he ayudado mucho a desarrollar los conceptos aprendidos sobre CSS y HTML.
-
-Otra persona a la que quiero agradecer es a Enrique, que me ha apoyado mucho emocionalmente en los momentos donde mas bloqueado estaba con la pagina, un gran amigo y compañero de clase.
-
 ## Horas
 
 Las horas realizadas en este trabajo son: 3 horas diarias durante 2 semanas, los findes ha sido un poco menos llegando a 1 hora y media pero he de decir que una estuve mas o menos 4 horas llegando mas o menos a las 40 horas realizadas por este trabajo.
@@ -16,6 +10,7 @@ Las horas realizadas en este trabajo son: 3 horas diarias durante 2 semanas, los
 
 La pagina web creada se llama PixShare y es una red social de imagenes generado por chatGPT
 le pedi un nombre de aplicacion  y una pequeña descripcion, a partir de ahi ,he creado la pagina.
+A parte de eso no he usado nada mas chatGPT.
 
 ### *Colores*
 
@@ -30,7 +25,7 @@ El segundo es el de iniciar sesion que solo va a validar si es un correo electro
 Y el tercero es el mas extenso que es una pagina de registro de cuenta, ahi verifica el nombre, apellido, correo, numero de telefono, nombre de usuario y contraseña.Y si todo esta bien avisara en un alert y sino avisara en otro en los campos incorrectos.
 
 Tambien he añadido un icono de cambio de tema que segun que tema esta establecido el icono cambia, para activar el tema oscuo aparece una luna y para el tema claro un sol.
-Las carpetas estan ordenadas por cada pagina, ya que ordenarlas por tipo de documente me habia dado errores,cada pagina tiene su documento html y css y javascript; los scripts al final solo he usado dos donde si los he añadido en todas las paginas, la principal es index,despues las de iniciar sesion y registrarse.
+Las carpetas estan ordenadas por cada pagina, ya que ordenarlas por tipo de documente me habia dado errores,cada pagina tiene su documento html y css y javascript; los scripts al final solo he usado dos donde si los he añadido en todas las paginas, la principal es index,despues las de iniciar sesion y registrarse.El slider de imagenes, lo he buscado de un tutorial de youtube, no he visto otra forma de hacerlo. todo el codigo esta comentado en su documento.
 
 La parte de responsive esta disponible desde movil ejemplo que es el iphone XR hasta tamanyos mas grandes como tablet.
 
