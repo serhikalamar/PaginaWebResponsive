@@ -36,14 +36,6 @@ Por lo demas es una pagina basica,con un diseño minimalista y con un intento de
 Gracias por su lectura.
 
 
-![imagenejemplo](imagenes de la pagina\Captura de pantalla 2024-03-21 204144.png)
-![imagenejemplo](imagenes de la pagina\Captura de pantalla 2024-03-21 204204.png)
-![imagenejemplo](imagenes de la pagina\Captura de pantalla 2024-03-21 204222.png)
-![imagenejemplo](imagenes de la pagina\Captura de pantalla 2024-03-21 204234.png)
-![imagenejemplo](imagenes de la pagina\Captura de pantalla 2024-03-21 204309.png)
-![imagenejemplo](imagenes de la pagina\Captura de pantalla 2024-03-21 204324.png)
-
-
 
 
 
